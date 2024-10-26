@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8EBB12E1B10DD4F1DCBB4F2F /* Pods_RNMusicPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62603EC6C2B031FBBDED353C /* Pods_RNMusicPlayer.framework */; };
 		D3829F5F2CCD2145005D8B32 /* RNMusicPlayerModule.m in Sources */ = {isa = PBXBuildFile; fileRef = D3829F5E2CCD2145005D8B32 /* RNMusicPlayerModule.m */; };
 		D3829F602CCD2145005D8B32 /* RNMusicPlayerModule.h in Headers */ = {isa = PBXBuildFile; fileRef = D3829F5D2CCD2145005D8B32 /* RNMusicPlayerModule.h */; };
 		D3D97FFC2CCD1EDD00B1CF51 /* RNMusicPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = D3D97FFB2CCD1EDD00B1CF51 /* RNMusicPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1128B0D060BBA6225BB87A3F /* Pods-RNMusicPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNMusicPlayer.release.xcconfig"; path = "Target Support Files/Pods-RNMusicPlayer/Pods-RNMusicPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		4D04109CA0C63F1FB46A310E /* Pods-RNMusicPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNMusicPlayer.debug.xcconfig"; path = "Target Support Files/Pods-RNMusicPlayer/Pods-RNMusicPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		62603EC6C2B031FBBDED353C /* Pods_RNMusicPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNMusicPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3829F5D2CCD2145005D8B32 /* RNMusicPlayerModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNMusicPlayerModule.h; sourceTree = "<group>"; };
 		D3829F5E2CCD2145005D8B32 /* RNMusicPlayerModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNMusicPlayerModule.m; sourceTree = "<group>"; };
 		D3D97FF82CCD1EDD00B1CF51 /* RNMusicPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RNMusicPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,17 +28,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EBB12E1B10DD4F1DCBB4F2F /* Pods_RNMusicPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F5C90D12CA5D767BC1EAC04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62603EC6C2B031FBBDED353C /* Pods_RNMusicPlayer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F28696402BCF48C6650FF51 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D04109CA0C63F1FB46A310E /* Pods-RNMusicPlayer.debug.xcconfig */,
+				1128B0D060BBA6225BB87A3F /* Pods-RNMusicPlayer.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D3D97FEE2CCD1EDD00B1CF51 = {
 			isa = PBXGroup;
 			children = (
 				D3D97FFA2CCD1EDD00B1CF51 /* RNMusicPlayer */,
 				D3D97FF92CCD1EDD00B1CF51 /* Products */,
+				8F28696402BCF48C6650FF51 /* Pods */,
+				6F5C90D12CA5D767BC1EAC04 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -75,6 +100,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D3D97FFF2CCD1EDD00B1CF51 /* Build configuration list for PBXNativeTarget "RNMusicPlayer" */;
 			buildPhases = (
+				564741FF2D7C93134DC58B31 /* [CP] Check Pods Manifest.lock */,
 				D3D97FF32CCD1EDD00B1CF51 /* Headers */,
 				D3D97FF42CCD1EDD00B1CF51 /* Sources */,
 				D3D97FF52CCD1EDD00B1CF51 /* Frameworks */,
@@ -130,6 +156,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		564741FF2D7C93134DC58B31 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RNMusicPlayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D3D97FF42CCD1EDD00B1CF51 /* Sources */ = {
@@ -267,6 +318,7 @@
 		};
 		D3D980002CCD1EDD00B1CF51 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D04109CA0C63F1FB46A310E /* Pods-RNMusicPlayer.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -278,6 +330,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,6 +349,7 @@
 		};
 		D3D980012CCD1EDD00B1CF51 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1128B0D060BBA6225BB87A3F /* Pods-RNMusicPlayer.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -307,6 +361,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

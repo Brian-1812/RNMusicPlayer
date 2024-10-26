@@ -3,24 +3,22 @@
   "version": "0.1.0",
   "summary": "A React Native audio player module",
   "homepage": "https://github.com/brian-1812/RNMusicPlayer",
-  "license": "MIT",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
   "authors": {
     "Shokhrukhmirzo Toyirov": "brianmaverick090@gmail.com"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "12.0"
   },
   "source": {
     "git": "https://github.com/brian-1812/RNMusicPlayer.git",
     "tag": "0.1.0"
   },
-  "source_files": "RNMusicPlayer/**/*.{h,m}",
-  "dependencies": {
-    "React": [
-
-    ],
-    "AVFoundation": [
-
-    ]
-  }
+  "source_files": [
+    "RNMusicPlayer/*.h",
+    "RNMusicPlayer/*.m"
+  ]
 }
