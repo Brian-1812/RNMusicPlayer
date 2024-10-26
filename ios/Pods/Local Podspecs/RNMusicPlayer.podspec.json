@@ -8,7 +8,7 @@
     "file": "LICENSE"
   },
   "authors": {
-    "Shokhrukhmirzo Toyirov": "brianmaverick090@gmail.com"
+    "Shokhrukhmirzo Toyirov": "toirovshohruxmirzo@gmail.com"
   },
   "platforms": {
     "ios": "12.0"
@@ -17,8 +17,5 @@
     "git": "https://github.com/brian-1812/RNMusicPlayer.git",
     "tag": "0.1.0"
   },
-  "source_files": [
-    "RNMusicPlayer/*.h",
-    "RNMusicPlayer/*.m"
-  ]
+  "source_files": "RNMusicPlayer/**/*.{h,m}"
 }

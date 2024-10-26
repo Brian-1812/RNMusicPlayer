@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03E013422D35FBA3B77947ECFA6D7E4F /* RNMusicPlayerModule.h in Headers */ = {isa = PBXBuildFile; fileRef = EA9795033F924CAB00E30312D2D46029 /* RNMusicPlayerModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0F3C9A6DC4D2EE7558FE4EF50F7466E5 /* RNMusicPlayerModule.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B2F1D6FB82B03CD693128CBABB3FB5 /* RNMusicPlayerModule.m */; };
+		098C56913AFDF622BDA47D65424A3E04 /* RNMusicPlayerModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF501D21541B3CC91EE188EB92EDC54 /* RNMusicPlayerModule.m */; };
 		37B7178452640BB032D8B847DAE84DD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		3D12314708B143E5EAD801BF9EB09653 /* Pods-RNMusicPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 85B5CF2283F739734698F7C5C993877A /* Pods-RNMusicPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7FAE82DF433185E8EB4B04F67BA99873 /* RNMusicPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = F3982699E2201C5DC12BB212D4E2556E /* RNMusicPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		89E2B2FD077EE2CF60AD7D99BE1027DC /* RNMusicPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A14470917E42039462C171ACD0465C4A /* RNMusicPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DB696A0EB17CA1F4AA26F2692C04FD8 /* RNMusicPlayerModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 68F461A4820F276F40E361AD2749AC46 /* RNMusicPlayerModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89E2B2FD077EE2CF60AD7D99BE1027DC /* RNMusicPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48345D9E9D712F9172B0C9C1B72C872C /* RNMusicPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A610138A3F361A23CC6BB576CD40B6F1 /* Pods-RNMusicPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D06D387F5E29F590AAC74437059CD1C7 /* Pods-RNMusicPlayer-dummy.m */; };
-		CB7E027675CCA51DB6791F5B54CDB006 /* RNMusicPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC1A3BC399420DF04A3EA42B395CCF8 /* RNMusicPlayer-dummy.m */; };
+		CB7E027675CCA51DB6791F5B54CDB006 /* RNMusicPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA623A39154BE36F6A8718F89E2C771 /* RNMusicPlayer-dummy.m */; };
+		D513B54066001E42CBF4EE13DA6C0079 /* RNMusicPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 74F5C0E083B32614B769D0052B61E6BF /* RNMusicPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F68654BD6D87D99B2764F3B2043107E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,30 +29,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C3FE9142A42816B5BC8D07DF786C99A /* RNMusicPlayer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RNMusicPlayer-Info.plist"; sourceTree = "<group>"; };
+		15253685960DB0BDF2DA99DD2D1972FE /* RNMusicPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RNMusicPlayer-prefix.pch"; sourceTree = "<group>"; };
+		1AA623A39154BE36F6A8718F89E2C771 /* RNMusicPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RNMusicPlayer-dummy.m"; sourceTree = "<group>"; };
 		1ADB5982036B04DEC5507ABF8F966D36 /* Pods-RNMusicPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RNMusicPlayer.debug.xcconfig"; sourceTree = "<group>"; };
-		1C1CD9A4C2BDF5EB88B565CD61CFD48E /* RNMusicPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RNMusicPlayer.debug.xcconfig; sourceTree = "<group>"; };
 		1CD1A6E72001F168B4F85A8F6386996C /* Pods-RNMusicPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RNMusicPlayer.release.xcconfig"; sourceTree = "<group>"; };
-		1FA8919F4B96CDAC44AA9CB3BC5FB6ED /* RNMusicPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RNMusicPlayer-prefix.pch"; sourceTree = "<group>"; };
-		23C82A816A1858BF6F38273F377972E3 /* RNMusicPlayer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RNMusicPlayer.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		39D8F270F87944000CA801AA083FE77A /* RNMusicPlayer */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RNMusicPlayer; path = RNMusicPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		466769E7481866B66ADA8B254184D66B /* Pods-RNMusicPlayer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RNMusicPlayer-acknowledgements.markdown"; sourceTree = "<group>"; };
-		53EF9B4E991C6E4222838E8C52FA4528 /* RNMusicPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RNMusicPlayer.release.xcconfig; sourceTree = "<group>"; };
-		5DC1A3BC399420DF04A3EA42B395CCF8 /* RNMusicPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RNMusicPlayer-dummy.m"; sourceTree = "<group>"; };
-		6737E890C5291CE041C8ED041C9C5862 /* RNMusicPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RNMusicPlayer.modulemap; sourceTree = "<group>"; };
+		48345D9E9D712F9172B0C9C1B72C872C /* RNMusicPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RNMusicPlayer-umbrella.h"; sourceTree = "<group>"; };
+		5BEAAC19673FA52BDFB3BBC04149595A /* RNMusicPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RNMusicPlayer.debug.xcconfig; sourceTree = "<group>"; };
+		68F461A4820F276F40E361AD2749AC46 /* RNMusicPlayerModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNMusicPlayerModule.h; path = RNMusicPlayer/Sources/RNMusicPlayerModule.h; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		82AB4649B110BD44F59B8043E5755726 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		74F5C0E083B32614B769D0052B61E6BF /* RNMusicPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNMusicPlayer.h; path = RNMusicPlayer/Sources/RNMusicPlayer.h; sourceTree = "<group>"; };
+		7727D573268AF58928A5FF13F9F4B5D9 /* RNMusicPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RNMusicPlayer.modulemap; sourceTree = "<group>"; };
 		85B5CF2283F739734698F7C5C993877A /* Pods-RNMusicPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RNMusicPlayer-umbrella.h"; sourceTree = "<group>"; };
 		86FE41F18DB64BC078C5FF131B1E15C9 /* Pods-RNMusicPlayer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RNMusicPlayer-acknowledgements.plist"; sourceTree = "<group>"; };
-		8891978FC5A251B6197594BDB7033714 /* RNMusicPlayer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RNMusicPlayer-Info.plist"; sourceTree = "<group>"; };
+		8900CEA31F0C30E17089D634D4DAE1EE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		8DF501D21541B3CC91EE188EB92EDC54 /* RNMusicPlayerModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNMusicPlayerModule.m; path = RNMusicPlayer/Sources/RNMusicPlayerModule.m; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A14470917E42039462C171ACD0465C4A /* RNMusicPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RNMusicPlayer-umbrella.h"; sourceTree = "<group>"; };
 		A412F9ACCF56CD1A265639590E217591 /* Pods-RNMusicPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RNMusicPlayer.modulemap"; sourceTree = "<group>"; };
 		B81DB0B26656A347F6F57F4E9D5CCB2B /* Pods-RNMusicPlayer */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RNMusicPlayer"; path = Pods_RNMusicPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C52F3A880AF37201EE0721B63E798425 /* RNMusicPlayer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RNMusicPlayer.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D06D387F5E29F590AAC74437059CD1C7 /* Pods-RNMusicPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RNMusicPlayer-dummy.m"; sourceTree = "<group>"; };
-		EA9795033F924CAB00E30312D2D46029 /* RNMusicPlayerModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNMusicPlayerModule.h; path = RNMusicPlayer/RNMusicPlayerModule.h; sourceTree = "<group>"; };
+		EAE36731AEAA36BF49972E9B18B80E79 /* RNMusicPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RNMusicPlayer.release.xcconfig; sourceTree = "<group>"; };
 		EDAAA8094521E1A9E919558006FBB523 /* Pods-RNMusicPlayer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RNMusicPlayer-Info.plist"; sourceTree = "<group>"; };
-		F3982699E2201C5DC12BB212D4E2556E /* RNMusicPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNMusicPlayer.h; path = RNMusicPlayer/RNMusicPlayer.h; sourceTree = "<group>"; };
-		F6B2F1D6FB82B03CD693128CBABB3FB5 /* RNMusicPlayerModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNMusicPlayerModule.m; path = RNMusicPlayer/RNMusicPlayerModule.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,13 +84,26 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2AB0F677F97A8F22C65C0DD327509556 /* Pod */ = {
+		141070CFFAC4365BA9BEC9C424C41307 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				82AB4649B110BD44F59B8043E5755726 /* LICENSE */,
-				23C82A816A1858BF6F38273F377972E3 /* RNMusicPlayer.podspec */,
+				8900CEA31F0C30E17089D634D4DAE1EE /* LICENSE */,
+				C52F3A880AF37201EE0721B63E798425 /* RNMusicPlayer.podspec */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		4AA7E6C05AAEA52AA26B1A127E752CD2 /* RNMusicPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				74F5C0E083B32614B769D0052B61E6BF /* RNMusicPlayer.h */,
+				68F461A4820F276F40E361AD2749AC46 /* RNMusicPlayerModule.h */,
+				8DF501D21541B3CC91EE188EB92EDC54 /* RNMusicPlayerModule.m */,
+				141070CFFAC4365BA9BEC9C424C41307 /* Pod */,
+				C9309D08AA0C3B2C934DE809A625B2AE /* Support Files */,
+			);
+			name = RNMusicPlayer;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -112,7 +125,7 @@
 		9F480B88491B0171E67773164922D037 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DA446F30F3B5C8B8EC1F6F820AC99C71 /* RNMusicPlayer */,
+				4AA7E6C05AAEA52AA26B1A127E752CD2 /* RNMusicPlayer */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -131,6 +144,21 @@
 			);
 			name = "Pods-RNMusicPlayer";
 			path = "Target Support Files/Pods-RNMusicPlayer";
+			sourceTree = "<group>";
+		};
+		C9309D08AA0C3B2C934DE809A625B2AE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7727D573268AF58928A5FF13F9F4B5D9 /* RNMusicPlayer.modulemap */,
+				1AA623A39154BE36F6A8718F89E2C771 /* RNMusicPlayer-dummy.m */,
+				0C3FE9142A42816B5BC8D07DF786C99A /* RNMusicPlayer-Info.plist */,
+				15253685960DB0BDF2DA99DD2D1972FE /* RNMusicPlayer-prefix.pch */,
+				48345D9E9D712F9172B0C9C1B72C872C /* RNMusicPlayer-umbrella.h */,
+				5BEAAC19673FA52BDFB3BBC04149595A /* RNMusicPlayer.debug.xcconfig */,
+				EAE36731AEAA36BF49972E9B18B80E79 /* RNMusicPlayer.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/RNMusicPlayer";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -152,34 +180,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DA446F30F3B5C8B8EC1F6F820AC99C71 /* RNMusicPlayer */ = {
-			isa = PBXGroup;
-			children = (
-				F3982699E2201C5DC12BB212D4E2556E /* RNMusicPlayer.h */,
-				EA9795033F924CAB00E30312D2D46029 /* RNMusicPlayerModule.h */,
-				F6B2F1D6FB82B03CD693128CBABB3FB5 /* RNMusicPlayerModule.m */,
-				2AB0F677F97A8F22C65C0DD327509556 /* Pod */,
-				EBF3F03D1FD42C9D66BB969CD778FC00 /* Support Files */,
-			);
-			name = RNMusicPlayer;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		EBF3F03D1FD42C9D66BB969CD778FC00 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6737E890C5291CE041C8ED041C9C5862 /* RNMusicPlayer.modulemap */,
-				5DC1A3BC399420DF04A3EA42B395CCF8 /* RNMusicPlayer-dummy.m */,
-				8891978FC5A251B6197594BDB7033714 /* RNMusicPlayer-Info.plist */,
-				1FA8919F4B96CDAC44AA9CB3BC5FB6ED /* RNMusicPlayer-prefix.pch */,
-				A14470917E42039462C171ACD0465C4A /* RNMusicPlayer-umbrella.h */,
-				1C1CD9A4C2BDF5EB88B565CD61CFD48E /* RNMusicPlayer.debug.xcconfig */,
-				53EF9B4E991C6E4222838E8C52FA4528 /* RNMusicPlayer.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Pods/Target Support Files/RNMusicPlayer";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -187,9 +187,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FAE82DF433185E8EB4B04F67BA99873 /* RNMusicPlayer.h in Headers */,
+				D513B54066001E42CBF4EE13DA6C0079 /* RNMusicPlayer.h in Headers */,
 				89E2B2FD077EE2CF60AD7D99BE1027DC /* RNMusicPlayer-umbrella.h in Headers */,
-				03E013422D35FBA3B77947ECFA6D7E4F /* RNMusicPlayerModule.h in Headers */,
+				3DB696A0EB17CA1F4AA26F2692C04FD8 /* RNMusicPlayerModule.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB7E027675CCA51DB6791F5B54CDB006 /* RNMusicPlayer-dummy.m in Sources */,
-				0F3C9A6DC4D2EE7558FE4EF50F7466E5 /* RNMusicPlayerModule.m in Sources */,
+				098C56913AFDF622BDA47D65424A3E04 /* RNMusicPlayerModule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,7 +356,7 @@
 		};
 		23CD11FEB595552E13DF271A40F3388C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C1CD9A4C2BDF5EB88B565CD61CFD48E /* RNMusicPlayer.debug.xcconfig */;
+			baseConfigurationReference = 5BEAAC19673FA52BDFB3BBC04149595A /* RNMusicPlayer.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -555,7 +555,7 @@
 		};
 		F275C392D9B94D6ADEA5FB51F57076ED /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 53EF9B4E991C6E4222838E8C52FA4528 /* RNMusicPlayer.release.xcconfig */;
+			baseConfigurationReference = EAE36731AEAA36BF49972E9B18B80E79 /* RNMusicPlayer.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
