@@ -1,0 +1,16 @@
+PODS:
+  - RNMusicPlayer (0.1.0)
+
+DEPENDENCIES:
+  - RNMusicPlayer (from `.`)
+
+EXTERNAL SOURCES:
+  RNMusicPlayer:
+    :path: "."
+
+SPEC CHECKSUMS:
+  RNMusicPlayer: c82503a33ef9b67970fe79b4524d8e617ad9552a
+
+PODFILE CHECKSUM: 41bf990162133425bf0fd66c775aa966a7907bfa
+
+COCOAPODS: 1.15.2

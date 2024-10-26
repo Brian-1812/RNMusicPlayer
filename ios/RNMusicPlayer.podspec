@@ -11,5 +11,5 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => 'https://github.com/brian-1812/RNMusicPlayer.git', :tag => spec.version.to_s }
 
   puts "Source Files: #{Dir.glob('RNMusicPlayer/**/*.{h,m}').inspect}"
-  spec.source_files = 'RNMusicPlayer/**/*.{h,m}'
+  spec.source_files = 'RNMusicPlayer/Classes/**/*'
 end
